@@ -6,7 +6,7 @@ class User  {
         this.subscriptions = [];
     }
 
-    subscribe(streamingService:string,) {
+    subscribe(streamingService:string) {
         if ( this.subscriptions.indexOf(streamingService) !== -1) {
             return null;
         }else{
